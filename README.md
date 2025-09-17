@@ -9,7 +9,7 @@
 - [Design](#design)
 - [Features](#features)
 - [Development Guide](#development-guide)
-- [Frequently Asked Questions][#frequently-asked-questions]
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 ## About
 G2 is the largest and most trusted software marketplace. Individuals and companies use G2 to make smarter software purchasing decisions based on authentic peer reviews from fellow professionals.
