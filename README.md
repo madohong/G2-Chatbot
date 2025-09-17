@@ -9,7 +9,7 @@
 - [Design](#design)
 - [Features](#features)
 - [Development Guide](#development-guide)
-- [Frequently Asked Questions (FAQ)][#faq]
+- [Frequently Asked Questions][#frequently-asked-questions]
 
 ## About
 G2 is the largest and most trusted software marketplace. Individuals and companies use G2 to make smarter software purchasing decisions based on authentic peer reviews from fellow professionals.
@@ -172,7 +172,7 @@ Commit messages start with one of the main type wrapped around in parenthesis, f
 -   `(feat) Add login functionality [- Optional Details]`
 -   `(doc) Update API documentation [- Optional Details]`
 
-## Frequently Asked Questions (FAQ)
+## Frequently Asked Questions
 
 **Q: What is the G2 Review Chatbot?**  
 A: The G2 Review Chatbot is an AI-powered tool that helps users write software reviews by guiding them through an interview-style conversation.
