@@ -9,6 +9,7 @@
 - [Design](#design)
 - [Features](#features)
 - [Development Guide](#development-guide)
+- [Frequently Asked Questions (FAQ)][#faq]
 
 ## About
 G2 is the largest and most trusted software marketplace. Individuals and companies use G2 to make smarter software purchasing decisions based on authentic peer reviews from fellow professionals.
@@ -170,3 +171,35 @@ Commit messages start with one of the main type wrapped around in parenthesis, f
 
 -   `(feat) Add login functionality [- Optional Details]`
 -   `(doc) Update API documentation [- Optional Details]`
+
+## Frequently Asked Questions (FAQ)
+
+**Q: What is the G2 Review Chatbot?**  
+A: The G2 Review Chatbot is an AI-powered tool that helps users write software reviews by guiding them through an interview-style conversation.
+
+**Q: How do I run the project locally?**  
+A:  
+```bash
+git clone git@github.com:Weile-Zheng/g2-chatbot.git
+cd client
+npm install
+npm run dev
+```
+
+**Q: Where do I get the required API keys?**  
+A:
+Groq API key: Groq Console
+G2 API key: Provided by G2 after account setup
+
+**Q: Should I use Docker or manual setup?**  
+A: Use Docker Compose (recommended). Manual setup is deprecated and may require URL changes.
+
+**Q: How do I fix Redis not starting?**     
+A: Ensure Redis is installed (brew install redis or pip install redis) and run redis-server in a separate terminal.
+
+**Q: What are the system requirements?**    
+A: You’ll need:
+- npm:for the frontend
+- Python (with pip) for backend dependencies
+- Docker Desktop(recommended setup)
+- Redis (if running without Docker)
